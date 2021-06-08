@@ -1,10 +1,6 @@
 import React from 'react'
 import { View, StyleSheet, Image } from 'react-native'
 import {
-    Avatar,
-    Title,
-    Caption,
-    Paragraph,
     Drawer,
     Text,
     TouchableRipple,
@@ -16,7 +12,6 @@ import {
     DrawerItem
 } from '@react-navigation/drawer'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import { color } from 'react-native-reanimated';
 
 export function DrawerContent(props){
 
@@ -36,13 +31,18 @@ export function DrawerContent(props){
                     <Drawer.Section style={styles.drawerSection}>
                         <Divider />
                         <DrawerItem 
-                            label="Home"
-                            onPress={() => {props.navigation.navigate('Home')}}
+                            label="JustAnalyze"
+                            onPress={() => {props.navigation.navigate('JustAnalyze')}}
                         />
                         <Divider />
                         <DrawerItem 
-                            label="Second Screen"
-                            onPress={() => {props.navigation.navigate('secondscreen')}}
+                            label="Search Tweet"
+                            onPress={() => {props.navigation.navigate('STweet')}}
+                        />
+                        <Divider />
+                        <DrawerItem 
+                            label="About"
+                            onPress={() => {props.navigation.navigate('About')}}
                         />
                     </Drawer.Section>
                     

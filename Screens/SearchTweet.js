@@ -4,13 +4,13 @@ import {Text, View, StyleSheet} from 'react-native'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {Button,IconButton} from 'react-native-paper'
 
-function Secondscreen({navigation}){
+function STweet({navigation}){
     return (
         <View>
             <Appbar.Header>
                 <Appbar/>
                 <IconButton icon="menu" color={"#FFF"} size={30} style={{marginLeft:-5,marginRight:0}} onPress={()=>{navigation.toggleDrawer();}} />
-                <Appbar.Content title="Second Screen" />
+                <Appbar.Content title="Search Tweet" />
                 <Appbar.Action icon="dots-vertical"/>
             </Appbar.Header>
         <View style={{alignItems:'center', justifyContent:'center', marginTop:100}}>
@@ -20,4 +20,4 @@ function Secondscreen({navigation}){
     )
 }
 
-export default Secondscreen
+export default STweet
