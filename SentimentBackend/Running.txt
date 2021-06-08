@@ -1,0 +1,3 @@
+To run backend server open shell inside the directory and execute "source mypython/bin/activate"
+then navigate to 'django_app' directory and run server as "python manage.py runserver <System_ip>:8000"
+
