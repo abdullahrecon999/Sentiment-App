@@ -31,7 +31,7 @@ function JustAnalyze({navigation}){
       };
       
       function getRes(){
-        fetch("http://192.168.18.16:8000/api/predict/", requestOptions)
+        fetch("http://<System-Ip>:8000/api/predict/", requestOptions)
         .then(response => response.text())
         .then(result => setRes(result))
         .catch(error => console.log('error', error)); 
@@ -44,7 +44,7 @@ function JustAnalyze({navigation}){
       }
 
       function detectLang(){
-        fetch("http://192.168.18.16:8000/api/predict/", requestOptions)
+        fetch("http://<System-Ip>8000/api/predict/", requestOptions)
         .then(response => response.text())
         .then(result => setRes(result))
         .catch(error => console.log('error', error));
