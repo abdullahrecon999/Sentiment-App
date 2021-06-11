@@ -55,7 +55,8 @@ To run the Server code navigate to the /backend/django_app/ from terminal and ex
 /> python manage.py runserver <System IP>:8000
 ```
 > Make sure to add the system ip in the ALLOWED_HOSTS inside /django_app/mainapp/settings.py
-> Also make sure to replace <System-Ip> in /Screens/JustAnalyze.js to your system's Ip
+> 
+> Also make sure to replace < System-Ip > in /Screens/JustAnalyze.js to your system's Ip
 
 # Running Application
 Install Expo client on Pc and install Expo Go app on phone.
