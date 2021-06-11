@@ -28,6 +28,7 @@ To run the application successfully following are the required softwares.
 The Following Layout of project file is best suited
 The Main Layout:
 ![](https://github.com/abdullahrecon999/Sentiment-App/blob/main/assets/Screenshot%20from%202021-06-11%2016-53-22.png)
+
 The Server files:
 ![](https://github.com/abdullahrecon999/Sentiment-App/blob/main/assets/Screenshot%20from%202021-06-11%2016-39-29.png)
 
